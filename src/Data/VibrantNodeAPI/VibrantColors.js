@@ -1,4 +1,5 @@
 // Local node express api to get predominant color from a playlist image
+// THIS IS NOT PART OF THE REACT NATIVE APP DO NOT INCLUDE
 import Vibrant from 'node-vibrant';
 import express from 'express';
 const App = express(); // API representation with express initialization

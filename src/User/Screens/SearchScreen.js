@@ -16,7 +16,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Feather from 'react-native-vector-icons/Feather';
-import MockData from '../Genres/MockData.json';
 
 import { getCategoryData_US } from '../Genres/GetCategories';
 

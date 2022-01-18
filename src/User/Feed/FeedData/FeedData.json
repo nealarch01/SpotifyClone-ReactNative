@@ -1,0 +1,214 @@
+[
+    {
+        "FeedName": "Feeling Good",
+        "FeedID": 0,
+        "FeedItems": [
+            {
+                "itemID": 0,
+                "itemName": "Mood Booster",
+                "imageSource": "https://i.scdn.co/image/ab67706f00000002bd0e19e810bb4b55ab164a95",
+                "details": "LANY, Khalid, The Kid LAROI, Surfaces",
+                "playlistID": "37i9dQZF1DX3rxVfibe1L0"
+            },
+            {
+                "itemID": 1,
+                "itemName": "Good Vibes",
+                "imageSource": "https://i.scdn.co/image/ab67706f000000027dc2a0fb4bfe0d07294f685e",
+                "details": "Only good vibes here!",
+                "playlistID": "37i9dQZF1DWYBO1MoTDhZI"
+            },
+            {
+                "itemID": 2,
+                "itemName": "Feel Good Indie Rock",
+                "imageSource": "https://i.scdn.co/image/ab67706f00000002033194582b613753efeb6e71",
+                "details": "Feel good songs made by alternative artists",
+                "playlistID": "37i9dQZF1DX2sUQwD7tbmL"
+            },
+            {
+                "itemID": 3,
+                "itemName": "aesthetic",
+                "imageSource": "https://i.scdn.co/image/ab67706f00000003889d42312db8e6aa21d55a34",
+                "details": "a curated mood",
+                "playlistID": "37i9dQZF1DX8uc99HoZBLU"
+            },
+            {
+                "itemID": 4,
+                "itemName": "Happy Hits!",
+                "imageSource": "https://i.scdn.co/image/ab67706f000000035af1070c80cd50dbbb4cfa19",
+                "details": "Hits to boost yor mood",
+                "playlistID": "37i9dQZF1DXdPec7aLTmlC"
+            }
+        ]
+    },
+    {
+        "FeedName": "Pop Hits",
+        "FeedID": 1,
+        "FeedItems": [
+            {
+                "itemID": 0,
+                "itemName": "Pumped Pop",
+                "imageSource": "https://i.scdn.co/image/ab67706f00000002b646573bb124fc0621fb3d64",
+                "details": "Playlist for throwing weights",
+                "playlistID": "37i9dQZF1DX5gQonLbZD9s"
+            },
+            {
+                "itemID": 1,
+                "itemName": "Today's Top Hits",
+                "imageSource": "https://i.scdn.co/image/ab67706f00000002ef96873063993949a8f73412",
+                "details": "The top 50 songs today!",
+                "playlistID": "37i9dQZF1DXcBWIGoYBM5M"
+            },
+            {
+                "itemID": 2,
+                "itemName": "big on the internet",
+                "imageSource": "https://i.scdn.co/image/ab67706f00000002fdf4cfec15e4ef102ebc583b",
+                "details": "iykyk",
+                "playlistID": "37i9dQZF1DX5Vy6DFOcx00"
+            },
+            {
+                "itemID": 3,
+                "itemName": "Mega Hit Mix",
+                "imageSource": "https://i.scdn.co/image/ab67706f000000023a0ce8df9f957525f62c9443",
+                "details": "A mega hit mix of 75 favorites",
+                "playlistID": "37i9dQZF1DXbYM3nMM0oPk"
+            },
+            {
+                "itemID": 4,
+                "itemName": "Pop rising",
+                "imageSource": "https://i.scdn.co/image/ab67706f00000002824489fd408c2c2f0bc49e99",
+                "details": "The hits of tomorrow!",
+                "playlistID": "37i9dQZF1DWUa8ZRTfalHk"
+            },
+            {
+                "itemID": 5,
+                "itemName": "Internet People",
+                "imageSource": "https://i.scdn.co/image/ab67706f00000002b965f1ce92daf3515c0d677d",
+                "details": "The soundtrack to the Internet",
+                "playlistID": "37i9dQZF1DX6OgmB2fwLGd"
+            }
+        ]
+    },
+    {
+        "FeedName": "Indie",
+        "FeedID": 2,
+        "FeedItems": [
+            {
+                "itemID": 0,
+                "itemName": "Indie Pop",
+                "imageSource": "https://i.scdn.co/image/ab67706f000000025b7f04beb016fad9d48703de",
+                "details": "Cover: No Home",
+                "playlistID": "37i9dQZF1DWWEcRhUVtL8n"
+            },
+            {
+                "itemID": 1,
+                "itemName": "my life is a movie",
+                "imageSource": "https://i.scdn.co/image/ab67706f00000002d2789b816dfcdc308c56fb33",
+                "details": "every main character needs a soundtrack",
+                "playlistID": "37i9dQZF1DX4OzrY981I1W"
+            },
+            {
+                "itemID": 2,
+                "itemName": "Ultimate Indie",
+                "imageSource": "https://i.scdn.co/image/ab67706f000000020f29546d9f336fc349db487c",
+                "details": "The ultimate indie playlist",
+                "playlistID": "37i9dQZF1DX2Nc3B70tvx0"
+            },
+            {
+                "itemID": 3,
+                "itemName": "Indie Pop 2000s",
+                "imageSource": "https://i.scdn.co/image/ab67706f00000002c492701ac72b9b4182860a2b",
+                "details": "Indie pop throwback",
+                "playlistID": "37i9dQZF1DX9LbdoYID5v7"
+            },
+            {
+                "itemID": 4,
+                "itemName": "Today's Indie Rock",
+                "imageSource": "https://i.scdn.co/image/ab67706f000000024af16e1333710c0d4ba946e8",
+                "details": "The resurgence is real. Cover: Lovejoy",
+                "playlistID": "37i9dQZF1DX30HHrCAl4ZG"
+            },
+            {
+                "itemID": 5,
+                "itemName": "Late Night Vibes",
+                "imageSource": "https://i.scdn.co/image/ab67706f0000000231a916f4b108ce534f73caab",
+                "details": "Slow burners for late nights",
+                "playlistID": "37i9dQZF1DXdQvOLqzNHSW"
+            }
+        ]
+    },
+    {
+        "FeedName": "Rap / Hip-Hop",
+        "FeedID": 3,
+        "FeedItems": [
+            {
+                "itemID": 0,
+                "itemName": "Rap Caviar",
+                "imageSource": "https://i.scdn.co/image/ab67706f00000002480421685a950a576c15f5d8",
+                "details": "Featuring Drake, Kodak Black, Kanye",
+                "playlistID": "37i9dQZF1DX0XUsuxWHRQd"
+            },
+            {
+                "itemID": 1,
+                "itemName": "Get Turnt",
+                "imageSource": "https://i.scdn.co/image/ab67706f000000028300971464935a3509dd27dc",
+                "details": "Mode: Turnt",
+                "playlistID": "37i9dQZF1DWY4xHQp97fN6"
+            },
+            {
+                "itemID": 2,
+                "itemName": "2 . 24",
+                "imageSource": "https://i.scdn.co/image/ab67706f000000020a1c0a9b353861ab36472d91",
+                "details": "Playlist dedicated to the Mamba",
+                "playlistID": "37i9dQZF1DXaitacWUJMPH"
+            },
+            {
+                "itemID": 3,
+                "itemName": "Feelin' Myself",
+                "imageSource": "https://i.scdn.co/image/ab67706f00000002c32c28372835af7e7e9dbed2",
+                "details": "Hip hop playlist that sets the mood",
+                "playlistID": "37i9dQZF1DX6GwdWRQMQpq"
+            }
+        ]
+    },
+    {
+        "FeedName": "Top Charts",
+        "FeedID": 4,
+        "FeedItems": [
+            {
+                "itemID": 0,
+                "itemName": "Today's Top Hits",
+                "imageSource": "https://i.scdn.co/image/ab67706f000000037cdb841ca66e6718cc289512",
+                "details": "Featuring GAYLE",
+                "playlistID": "37i9dQZF1DXcBWIGoYBM5M"
+            },
+            {
+                "itemID": 1,
+                "itemName": "Mint",
+                "imageSource": "https://i.scdn.co/image/ab67706f000000039bed05f3473456d9f10b434e",
+                "details": "World's biggest dance hits",
+                "playlistID": "37i9dQZF1DX4dyzvuaRJ0n"
+            },
+            {
+                "itemID": 2,
+                "itemName": "Hot Country",
+                "imageSource": "https://i.scdn.co/image/ab67706f00000003662acc94d0c286485bbbdae6",
+                "details": "Today's hot country hits",
+                "playlistID": "37i9dQZF1DX1lVhptIYRda"
+            },
+            {
+                "itemID": 4,
+                "itemName": "Top 50 - USA",
+                "imageSource": "https://charts-images.scdn.co/assets/locale_en/regional/daily/region_us_large.jpg",
+                "details": "Top 50 songs in the US",
+                "playlistID": "37i9dQZEVXbLRQDuF5jeBp"
+            },
+            {
+                "itemID": 5,
+                "itemName": "Top 50 - Global",
+                "imageSource": "https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_large.jpg",
+                "details": "Top 50 songs in the US",
+                "playlistID": "37i9dQZEVXbMDoHDwVN2tF"
+            }
+        ]
+    }
+]

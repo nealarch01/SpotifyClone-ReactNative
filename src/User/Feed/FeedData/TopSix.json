@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Liked Songs",
+        "imageSource": "https://misc.scdn.co/liked-songs/liked-songs-640.png",
+        "details": "Your liked songs",
+        "playlistID": ""
+    },
+    {
+        "name": "Internet People",
+        "imageSource": "https://i.scdn.co/image/ab67706f00000002b965f1ce92daf3515c0d677d",
+        "details": "",
+        "playlistID": "37i9dQZF1DX6OgmB2fwLGd"
+    },
+    {
+        "name": "Fresh Finds Dance",
+        "imageSource": "https://i.scdn.co/image/ab67706f000000031d22ae67919be14133a394d1",
+        "details": "",
+        "playlistID": "37i9dQZF1DX6bBjHfdRnza"
+    },
+    {
+        "name": "Good Vibes",
+        "imageSource": "https://i.scdn.co/image/ab67706f000000027dc2a0fb4bfe0d07294f685e",
+        "details": "",
+        "playlistID": "37i9dQZF1DWYBO1MoTDhZI"
+    },
+    {
+        "name": "RapCaviar",
+        "imageSource": "https://i.scdn.co/image/ab67706f00000002480421685a950a576c15f5d8",
+        "details": "Ft. Drake",
+        "playlistID": "37i9dQZF1DX0XUsuxWHRQd"
+    },
+    {
+        "name": "Fit Check",
+        "imageSource": "https://i.scdn.co/image/ab67706f000000029796e27dcad9b0a701fafe47",
+        "details": "",
+        "playlistID": "37i9dQZF1DX1dvMSwf27JO"
+    }
+]

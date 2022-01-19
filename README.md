@@ -2,10 +2,12 @@
 
 
 
-
 Video and screenshots of the mobile app currently
 
-https://user-images.githubusercontent.com/73256760/149897939-f49e29f9-d425-4053-ade3-f2db4f4b6539.mov
+
+https://user-images.githubusercontent.com/73256760/150085074-20f6397f-02f2-427a-a6eb-57e57ee61815.mov
+
+
 
 <img width="345" alt="Screen Shot 2022-01-18 at 12 15 08 AM" src="https://user-images.githubusercontent.com/73256760/149897946-90123b60-3c4c-42a1-9861-1d7a45cec71d.png">
 <img width="353" alt="Screen Shot 2022-01-18 at 12 17 42 AM" src="https://user-images.githubusercontent.com/73256760/149897964-5e9bf780-95f2-48c4-95be-480ccb678cb5.png">

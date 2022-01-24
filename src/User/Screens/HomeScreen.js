@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {
     View,
-    ScrollView,
     StyleSheet,
     TouchableOpacity,
     Text,
@@ -84,6 +83,8 @@ export const TopView = () => {
     const [GreetMessage, SetGreetMessage] = useState('');
     const [TimeIcon, SetTimeIcon] = useState('sunrise');
     const [TimeIconColor, SetTimeIconColor] = useState('orange');
+
+    // initialize the current greet message and icons
     useEffect(() => {
         let hours = new Date().getHours();
         if (hours > 3 && hours < 12) {
@@ -99,7 +100,29 @@ export const TopView = () => {
             SetTimeIcon('moon');
             SetTimeIconColor('#2274A5');
         }
-    });
+    }, []);
+
+    // add interval to useEffect to run every 5 minutes
+    useEffect(() => {
+        let hrInterval = setInterval(() => {
+            let hours = new Date().getHours();
+            if (hours > 3 && hours < 12) {
+                SetGreetMessage('Good morning');
+                SetTimeIcon('sunrise');
+                SetTimeIconColor('orange');
+            } else if (hours >= 12 && hours < 18) {
+                SetGreetMessage('Good afternoon');
+                SetTimeIcon('sun');
+                SetTimeIconColor('#FFF7AA');
+            } else {
+                SetGreetMessage('Good evening');
+                SetTimeIcon('moon');
+                SetTimeIconColor('#2274A5');
+            }
+        }, 600000);
+        // clear the interval to prevent mem leaks
+        return () => clearInterval(hrInterval);
+    }, []);
     return (
         <View style={[styles.MainContainer]}>
             <View style={[styles.TopView]}>

@@ -92,9 +92,10 @@ const PlaylistDisplay = (props) => {
                         />}
                         data={props.playlist_data.tracks.items}
                         renderItem={renderItem}
-                        keyExtractor={item => (item === null || item.track === null || item.track.id === null) ? 'ERROR_NULL_OBJ' : item.track.id}
+                        keyExtractor={(itemKey, index) => index.toString()}
                         contentContainerStyle={{ paddingBottom: 155 }}
                         scrollIndicatorInsets={{ right: 1 }}
+                        indicatorStyle='white'
                     />
             }
         </>
@@ -114,7 +115,11 @@ const PlaylistTopView = (props) => {
         }
     }, []);
     return (
-        <LinearGradient colors={[coverColor, '#191414']} style={[styles.TopViewContainer]} start={{ x: 0, y: 0.2 }} end={{ x: 0, y: 1 }}>
+        <LinearGradient colors={[coverColor, '#191414']} 
+            style={[styles.TopViewContainer]} 
+            start={{ x: 0, y: 0.2 }} 
+            end={{ x: 0, y: 1 }}
+        >
             <View style={[styles.CoverImageContainer]}>
                 <Image source={{ uri: `${props.img}` }} style={[styles.PlaylistCoverImageStyle]} />
             </View>

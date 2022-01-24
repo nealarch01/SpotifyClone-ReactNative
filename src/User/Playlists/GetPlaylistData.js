@@ -3,11 +3,11 @@ import { getAuthToken } from "../UserConfig/getAuthToken";
 
 export async function getPlaylistTracks(playlist_id, fields) {
     try {
-        const accessToken = await getAuthToken();
+        const authToken = await getAuthToken();
         const api_url = `https://api.spotify.com/v1/playlists/${playlist_id}?market=ES&fields=${fields}` // end point url for playlists tracks
         const response = await axios.get(api_url, {
             headers: {
-                'Authorization': `Bearer ${accessToken}`,
+                'Authorization': `Bearer ${authToken}`,
                 'Content-Type': 'application/json'
             }
         });

@@ -90,11 +90,11 @@ export const PlaylistTrackItem = ({ item_artists, item_track_name, item_album_im
                     />
                     <View style={[styles.TracksModalOptionsView]}>
                         <ScrollView contentContainerStyle={{ paddingBottom: 120 }}>
-                            <View style={[styles.ImageContainer, { alignSelf: 'center', }]}>
+                            <View style={[styles.ImageContainer]}>
                                 <Image source={{ uri: `${item_album_image_medium}` }} style={[styles.TrackImageMedium]} />
                             </View>
                             <View style={[styles.FlexBox_One, { justifyContent: 'center', alignItems: 'center', marginTop: 15 }]}>
-                                <Text style={{ fontSize: 22, color: '#FFFFFF', fontWeight: '500' }}>{item_track_name}</Text>
+                                <Text style={{ fontSize: 22, color: '#FFFFFF', fontWeight: '500', textAlign: 'center', }}>{item_track_name}</Text>
                                 <Text style={{ fontSize: 18, color: '#FFFFFF99', fontWeight: '500' }}>{artists}</Text>
                             </View>
                             <View style={[styles.FlexBox_One]}>
@@ -165,7 +165,6 @@ const styles = StyleSheet.create({
         paddingLeft: 12,
         marginTop: 10,
         marginBottom: 5,
-        flex: 1,
     },
     FlexBox_One: {
         flex: 1,
@@ -183,7 +182,7 @@ const styles = StyleSheet.create({
         position: 'absolute',
     },
     ImageContainer: {
-        flex: 1
+        alignSelf: 'center',
     },
     ItemMainView: {
         flex: 10,

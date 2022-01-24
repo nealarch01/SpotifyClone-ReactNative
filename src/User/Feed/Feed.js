@@ -25,7 +25,7 @@ export const FeedDisplay = () => {
             renderItem={renderItem}
             keyExtractor={item => item.FeedID}
             contentContainerStyle={{ paddingBottom: 160 }}
-            nestedScrollEnabled={true}
+            indicatorStyle='white'
         />
     );
 }
@@ -34,12 +34,5 @@ const styles = StyleSheet.create({
     MainContainer: {
         flex: 1,
         flexDirection: 'column',
-    },
-    FeedTitleView: { // view houses our text
-        flex: 1,
-    },
-    FeedTitleText: {
-        fontSize: 26,
-        fontWeight: 'bold',
     }
 });

@@ -156,7 +156,8 @@ const styles = StyleSheet.create({
     },
     StickyHeaderStyle: {
         width: '100%',
-        height: 80,
+        paddingBottom: 10,
+        height: 90,
         backgroundColor: '#191414',
         flexDirection: 'row',
         alignItems: 'flex-end',

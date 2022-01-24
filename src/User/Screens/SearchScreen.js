@@ -19,7 +19,8 @@ import Feather from 'react-native-vector-icons/Feather';
 
 import { getCategoryData_US } from '../Genres/GetCategories';
 
-import { categoryScreen } from '../Genres/CategoryScreen';
+import { CategoryInnerScreen } from '../Genres/CategoryScreen';
+import { PlaylistScreen } from '../Playlists/Playlist';
 
 /*
 Sample images
@@ -41,7 +42,19 @@ export const SearchScreen = () => {
             >
                 <SearchStack.Screen name='Main' component={MainDisplay} />
                 <SearchStack.Screen name='Lookup' component={LookupScreen} />
-                <SearchStack.Screen name='Category' component={categoryScreen} />
+                <SearchStack.Screen name='Category' component={CategoryInnerScreen}
+                    options={{
+                        headerShown: false,
+                    }}
+                />
+                <SearchStack.Screen name='Playlist' component={PlaylistScreen} 
+                    options={{
+                        headerShown: true,
+                        headerTransparent: true,
+                        headerBackTitle: ' ',
+                        headerTitle: ' ',
+                    }}
+                />
             </SearchStack.Navigator>
         </NavigationContainer>
     );
@@ -73,7 +86,7 @@ const MainDisplay = ({ navigation }) => {
                     : <FlatList
                         data={categoryData.categories.items}
                         renderItem={renderItem}
-                        keyExtractor={dataItem => (dataItem === null || dataItem.items === null) ? 'ERROR_NULL_CATEGORY' : dataItem.id}
+                        keyExtractor={(itemKey, index) => index.toString()}
                         numColumns={2}
                         ListHeaderComponent={<BrowseScreenHeader navigation={navigation} />}
                         contentContainerStyle={{ paddingBottom: 155 }}
@@ -94,7 +107,6 @@ const BrowseScreenHeader = (props) => {
                     <Ionicons name='ios-search' size={26} color='#191414' style={{ paddingLeft: 7 }} />
                     <Text style={[styles.SearchBarText]}>Search artists, songs, podcasts</Text>
                 </TouchableOpacity>
-                <TopTwo />
                 <Text style={[styles.CategoriesText]}>Browse</Text>
             </View>
         </View>
@@ -183,7 +195,7 @@ const TopTwo = (props) => {
     return (
         <View>
             <Text style={[styles.CategoriesText]}>Your top genres</Text>
-            <CategoryPair />
+            <CategoryPair categoryOneID={'pop'} categoryTwoID={'indie_alt'} />
         </View>
     );
 }
@@ -204,11 +216,16 @@ const SearchTopView = () => {
     );
 }
 
-// one item
+// params: props.categoryID, props.categoryName, props.img, props.navigation
 const CategoryItem = (props) => {
-    // props.img
     return (
-        <TouchableOpacity activeOpacity={0.86}>
+        <TouchableOpacity activeOpacity={0.86} onPress={() => props.navigation.navigate('Category', 
+        { 
+            categoryID: props.categoryID, 
+            categoryName: props.categoryName, 
+            categoryImage: props.img,
+            navigation: props.navigation
+        })}>
             <View style={[styles.CategoryBox]}>
                 {
                     (props.img === null || props.img === undefined)

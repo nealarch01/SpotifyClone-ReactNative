@@ -200,12 +200,12 @@ const styles = StyleSheet.create({
         marginBottom: 5
     },
     PlaylistOwnerText: {
-        fontSize: 20,
+        fontSize: 18,
         color: '#FFFFFF',
         fontWeight: '600',
     },
     PlaylistDescriptionText: {
-        fontSize: 20,
+        fontSize: 18,
         fontWeight: '600',
         color: '#FFFFFF99',
         marginBottom: 8,

@@ -21,7 +21,7 @@ export async function getAuthToken() {
         return response.data.access_token;
     } catch(err) {
         // console.log(err);
-        console.log('There was an error obtaining the auth token: GetFeedData.js')
+        console.log('There was an error obtaining the auth token: getAuthToken.js')
         return null;
     }
 }
